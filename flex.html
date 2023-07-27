@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid green;
+            height: 60px;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .logo{
+            
+            width: 20%;
+            
+        }
+        .nav-bar{
+           
+            width: 60%;
+            padding-left: 200px;
+              
+        }
+        .nav-bar ul{
+            list-style: none;
+            
+            
+        }
+        .nav-bar li{
+            display: inline-block;
+            padding : 0px 50px;
+            
+
+        }
+        .nav-bar a{
+            text-decoration: none;
+            color: aliceblue;
+           
+        }
+        .nav-bar a:hover{
+            color:aqua;
+            border-radius: 1px;
+            font-size: 18px;
+            font-weight: 500;
+            box-shadow: 0px 2px 1px 0px aquamarine;
+            
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <navbar>
+            <div class="nav">
+                <div class="logo">
+                    <img src="../img/desktop.jpg" alt="logo" height="50px" width="100px">
+                </div>
+                <div class="nav-bar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help</a></li>
+
+                    </ul>
+                </div>
+                <div class="nav-btn">
+                    <h3 class="btn"><a href="#"> Login</a></h3>
+                </div>
+            </div>
+        </navbar>
+    </header>
+    
+</body>
+</html>
